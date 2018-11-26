@@ -1,0 +1,277 @@
+.carsdisplay img{
+    width: 500px;
+    height: 94%;
+    border-radius: 10px;
+}
+.receipt {
+    border-style: double;
+    width: 80%;
+    padding: 6px;
+    
+}
+.receipt table tr td{
+    border-style: solid;
+    width: 150px;
+    text-align: center;
+    color: blue;
+
+}
+.cancell{
+    text-align: center;
+    width: 50%;
+}
+
+
+.centered {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 700%;
+}
+.bookingsmy {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+#comments {
+    border-style: solid;
+    text-align: center;
+}
+
+.disable {
+    background-color: transparent;
+}
+
+#contactsform {
+    padding: 2px;
+    text-align: center;
+    border: solid;
+    font-size: 15px;
+}
+
+.cont li a {
+    color: white;
+}
+.selection select {
+    width: 600px;
+    height: 50px;
+    border-width: 4px;
+    font-family: all;
+    background-color: white;
+    cursor: pointer;
+    font-size: 24px;
+    color: black;
+}
+
+.selection input {
+    width: 400px;
+    height: 50px;
+    font-size: 18px;
+    border-radius: 0.3px;
+    border-style: solid;
+    font-family: all;
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+}
+
+.selection input:hover {
+    border-color: white;
+    background-color: black;
+}
+
+#slideshow {
+    width: 1350px;
+    margin: 10px;
+    margin-left: 40px;
+}
+
+#slideshow .carousel-inner img {
+    width: 80%;
+    max-height: 480px;
+    border-radius: 10px;
+    margin-left: 132px;
+}
+
+#contact {
+    width: 50%;
+    border-style: none;
+    padding: 20px;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 45%;
+    border-left-style: solid;
+    padding-left: 70px;
+}
+.feedback{
+   margin-left: 20%;
+   width: 100%;
+   padding:10%;
+}
+.feedback input{
+    margin-bottom: 5%;
+}
+.found {
+    text-align: center;
+    margin-left: 43%;
+}
+
+
+.bookings {
+
+    width: 800px;
+    padding: 80px;
+    margin-left: 300px;
+}
+
+.cont .dropmenu {
+    background-color: grey;
+}
+
+.logo {
+    padding-right: 20%;
+}
+
+.loginform {
+    border-style: solid;
+    width: 400px;
+    padding: 30px;
+    margin-left: 500px;
+}
+
+.jumbo {
+    margin: 10px;
+}
+
+.jumbo p {
+    font-family: unset;
+}
+
+#registerform {
+    width: 1000px;
+    border-style: solid;
+    border-radius: 20px;
+    margin-left: 220px;
+    padding: 20px;
+}
+
+.texty {
+    margin-left: -71px;
+    width: 114.4%;
+    color: black;
+    background-color: white;
+    opacity: 0.5;
+    position: relative;
+    -webkit-animation-name: welcome;
+    -webkit-animation-duration: 4s;
+    -webkit-animation-delay: 6s;
+    animation-name: welcome;
+    animation-duration: 4s;
+    animation-delay: 0s;
+}
+
+@keyframes welcome {
+    0% {
+        left: 0px;
+        bottom: 400px;
+    }
+    100% {
+        left: 0px;
+        bottom: 0px;
+    }
+}
+
+header {
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+    background-color: black;
+}
+
+header ul li {
+    font-family: cursive;
+    margin-right: 20px;
+    
+}
+
+header ul .login {
+    font-size: 15px;
+    width: 270px;
+    margin-left: 100px;
+    text-align: right;
+    display: block;
+}
+
+body {
+    min-height: 600px;
+    margin-top: 6%;
+    background: linear-gradient(#ffffcc, #1a0000);
+    background-repeat: no-repeat;
+    background-size: auto;
+    margin-bottom: 6%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+}
+
+footer li {
+    list-style: none;
+}
+
+footer li img {
+    float: left;
+    width: 20%;
+    height: 20%;
+    padding-right: 12%;
+    padding-top: 6%;
+}
+
+footer .footnotes {
+    color: white;
+}
+
+.button {
+    border-radius: 4px;
+    background-color: none;
+    border: none;
+    color: white;
+    text-align: center;
+    font-size: 22px;
+    padding: 20px;
+    width: 250px;
+    transition: all 0.4s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '»';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 0.5;
+    right: 0;
+}
